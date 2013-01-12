@@ -1,0 +1,8 @@
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+}
+
+gradle.addListener(new com.example.gradle.TestSummary())
